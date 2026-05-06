@@ -36,7 +36,7 @@ const projects: Project[]= [
     color: 'rgba(99, 179, 237, 0.08)',
     accent: 'rgba(99, 179, 237, 0.6)',
     number: '01',
-    image: 'projeto1.png',
+    image: '/MeuPortifolio/projeto1.png',
   },
   {
     title: 'Projeto 2',
@@ -51,7 +51,7 @@ const projects: Project[]= [
     color: 'rgba(241, 190, 108, 0.08)',
     accent: 'rgba(241, 190, 108, 0.6)',
     number: '02',
-    image: 'projeto2.png',
+    image: '/MeuPortifolio/projeto2.png',
   },
   {
     title: 'Projeto 3',
@@ -65,7 +65,7 @@ const projects: Project[]= [
     color: 'rgba(167, 139, 250, 0.08)',
     accent: 'rgba(167, 139, 250, 0.6)',
     number: '03',
-    image: 'projeto3.png',
+    image: '/MeuPortifolio/projeto3.png',
   },
 ]
 
@@ -146,7 +146,7 @@ function Modal({ project, onClose }: { project: Project; onClose: () => void }) 
               fontFamily: 'var(--font-body)',
               color: 'rgba(255,255,255,0.18)',
             }}>
-              <link rel="stylesheet" href="/public/projeto1.png" type="image/png" />
+              <link rel="stylesheet" href="/public/MeuPortifolio/projeto1.png" type="image/png" />
             </span>
             <code style={{
               fontSize: '0.6rem',
@@ -154,7 +154,7 @@ function Modal({ project, onClose }: { project: Project; onClose: () => void }) 
               color: 'rgba(255,255,255,0.12)',
               marginTop: '0.15rem',
             }}>
-              image: '/projects/projeto1.png'
+              image: '/MeuPortifolio/projeto1.png'
             </code>
           </div>
         )}

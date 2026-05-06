@@ -112,7 +112,7 @@ export default function About() {
             height: isMobile ? '280px' : 'auto',
           }}>
             <img
-              src="/perfil.jpeg"
+              src="/MeuPortifolio/perfil.jpeg"
               alt="Foto"
               style={{
                 width: '100%',

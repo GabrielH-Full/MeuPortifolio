@@ -8,7 +8,7 @@ import Contact from './sections/Contact'
 import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
 
-const VIDEO_URL = '/background1.mp4'
+const VIDEO_URL = '/MeuPortifolio/background1.mp4'
 
 export default function App() {
   return (
