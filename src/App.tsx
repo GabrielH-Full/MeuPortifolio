@@ -7,8 +7,9 @@ import Experience from './sections/Experience'
 import Contact from './sections/Contact'
 import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
+import videoBg from './assets/background1.mp4'
 
-const VIDEO_URL = '/MeuPortifolio/background1.mp4'
+//const VIDEO_URL = '/MeuPortifolio/background1.mp4'
 
 export default function App() {
   return (
@@ -23,12 +24,13 @@ export default function App() {
             objectFit: 'cover',
             zIndex: 0,
           }}
-          autoPlay
-          loop
-          muted
-          playsInline
+            autoPlay
+            loop
+            muted
+            playsInline
+            src={videoBg}
         >
-          <source src={VIDEO_URL} type="video/mp4" />
+          {/*<source src={VIDEO_URL} type="video/mp4" />*/}
         </video>
 
         <div style={{ position: 'relative', zIndex: 10, display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>

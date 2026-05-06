@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import perfil from '../assets/perfil.jpeg'
 
 const tags = [
   'Desenvolvimento Web',
@@ -112,7 +113,7 @@ export default function About() {
             height: isMobile ? '280px' : 'auto',
           }}>
             <img
-              src="/MeuPortifolio/perfil.jpeg"
+              src={perfil}
               alt="Foto"
               style={{
                 width: '100%',
